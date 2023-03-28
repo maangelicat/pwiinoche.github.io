@@ -1,0 +1,174 @@
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+body {
+    color: #000000;
+    background-image: url('../images/fondo2.png');
+    font-family: 'Amatic SC', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Poppins', sans-serif;
+    line-height: 1.2em;
+    margin: 0px;
+}
+
+.artist {
+    width: 1100px;
+    height:1900px;
+    margin: 20px auto 10px auto;
+    border: 2px solid #000000;
+    background-color:#81f7f391;
+}
+
+header {
+    height:130px;
+    width:1100px;
+    background-image: url('../images/header1.png');
+}
+
+h1 {
+    text-indent: -9999px;
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+}
+footer,nav {
+    clear: both;
+    color: #ffff;  
+    background-color: #868581;
+    height: 20px;
+}         
+
+nav ul {
+    margin: 0px;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav li a {
+    color: #ffffff;
+}
+
+nav li a:hover,
+nav li a.current {
+    color: #000000;
+}
+
+section.destacados {
+    float: left;
+    height:100px;
+    width:9500px; 
+    border-right: 1px solid #eeeeee;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 40px;
+}
+
+figure {
+    float: left;
+    width: 300px;
+    height: 220px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #ffffffb6;
+
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
+aside {
+
+    float: right;
+    padding: 0px 0px 0px 840px;
+    align-items: center;
+}
+
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+    color: #985d6a;
+    background-color: #ffffff;
+}
+
+a {
+    color: #de6581;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 30px 0px 10px 0px;
+    color: #500fa5;
+}
+
+aside h2 {
+    padding: 60px 0px 10px 0px;
+    color:#000000;
+    text-align: center;
+}
+
+footer {
+    background-color: #aeaca8;
+    font-size: 80%;
+    padding: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    nav {
+        font-size: 28px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 5px;
+    }
+}
